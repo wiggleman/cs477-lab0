@@ -34,7 +34,7 @@ performance, and integrates well with the rest of the system.
 
 For a general
 introduction to XDP, read [[https://github.com/xdp-project/xdp-paper/blob/master/xdp-the-express-data-path.pdf][the academic paper (pdf)]], or the [[https://cilium.readthedocs.io/en/latest/bpf/][Cilium BPF
-reference guide]]. These references are for your own understanding and optional.
+reference guide]]. These references are for your own understanding and are optional.
 
 This tutorial aims to be a practical introduction to the different steps
 needed to successfully write useful programs using the XDP system. We assume
