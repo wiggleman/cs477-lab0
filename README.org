@@ -98,7 +98,4 @@ kernel features, and how to run multiple XDP programs on a single interface.
 
 * Submission
 
-The lab spans the first two weeks, and has a deadline at 23:59 on 22/9/24. This
-lab comprises 15% of the total labs part of this course. The final submission
-will be through a link to the commit containing solutions for basic and packet
-processing exercises.
+The lab spans the first 4 weeks, and has a deadline at 23:59 on 6/10/24. This lab comprises 15% of the total labs part of this course. The final submission is at the end of four weeks.
