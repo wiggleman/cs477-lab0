@@ -107,7 +107,7 @@ static __always_inline int parse_iphdr(struct hdr_cursor *nh,
                                         struct iphdr **iphdr)
 {
     struct iphdr *iph = nh->pos;
-    if ((void *) iph + 1 > data_end)
+    if ( iph + 1 > data_end)
         return -1;
     int hdrsize = iph->ihl * 4;
     if (nh->pos + hdrsize > data_end)
@@ -120,7 +120,7 @@ static __always_inline int parse_icmphdr(struct hdr_cursor *nh,
         void *data_end,
         struct icmphdr **icmphdr){
     struct icmphdr * icmph = nh->pos;
-    if ((void *) icmph + 1 > data_end)
+    if ( icmph + 1 > data_end)
         return -1;
     nh->pos = icmph + 1;
     *icmphdr = icmph;
